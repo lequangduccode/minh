@@ -1,0 +1,314 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+#header {
+    background-color: black; 
+}
+bac 
+a {
+    color: white;
+    font-size: 18px;
+}
+
+#nav li {
+    display: inline-block;
+    padding: 15px;
+}
+
+#nav li:hover {
+    background-color: black;
+    color: blue;
+}
+
+#img_1 {
+    width: 100%;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+#the-band {
+    font-size: 30px;
+}
+
+
+#body {
+    text-align: center;
+}
+
+.lorem {
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+}
+
+.infomation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0px;
+
+}
+
+.wide {
+    letter-spacing: 4px;
+}
+
+.opacity {
+    opacity: 0.6;
+}
+
+.w3-input {
+    width: 100%;
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc
+}
+
+.w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: inherit;
+    color: white;
+    background-color: red;
+}
+
+.w3-button:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+#contact {
+    text-align: center;
+    margin: auto;
+    
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  /* The image used */
+  background-image: url("data:image/jpeg;base64,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");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
