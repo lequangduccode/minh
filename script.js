@@ -1,21 +1,21 @@
 function detail(){
-    window.location.href = "b.html"
+    window.location.href = "https://lequangduccode.github.io/minh/b.html"
 }
 function dog(){
     window.location.href = "https://bit.ly/3MuiS9o"
 }
 function home(){
-    window.location.href = "index.html"
+    window.location.href = "https://lequangduccode.github.io/minh/index.html"
 }
 function rer(){
-    window.location.href = "http://127.0.0.1:5500/signup.html"
+    window.location.href = "https://lequangduccode.github.io/minh/signup.html"
 }
 function contact(){
-    window.location.href = "http://127.0.0.1:5500/kek.html"
+    window.location.href = "https://lequangduccode.github.io/minh/kek.html"
 }
 function donate(){
-    window.location.href = "http://127.0.0.1:5500/donate.html"
+    window.location.href = "https://lequangduccode.github.io/minh/donate.html"
 }
 function signin(){
-    window.location.href = "http://127.0.0.1:5500/signin.html"
+    window.location.href = "https://lequangduccode.github.io/minh/signin.html"
 }
