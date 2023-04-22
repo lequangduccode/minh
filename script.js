@@ -1,11 +1,11 @@
 function detail(){
-    window.location.href = "http://127.0.0.1:5500/b.html"
+    window.location.href = "b.html"
 }
 function dog(){
     window.location.href = "https://bit.ly/3MuiS9o"
 }
 function home(){
-    window.location.href = "http://127.0.0.1:5500/index.html"
+    window.location.href = "index.html"
 }
 function rer(){
     window.location.href = "http://127.0.0.1:5500/signup.html"
